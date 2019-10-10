@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'neucha';
+    src: url('../Neucha.ttf');
+  }
+
+body {
+    font-family: 'neucha';
+    height: 100vh;
+}
+
+#header,#footer,#update-counter {
+  background: linear-gradient(to right, #003366, purple)
+}
+#footer {
+  color: white;
+  text-align: center;
+  height: 40px;
+  margin: 0px;
+  padding: 7px 0px;
+}
+
+#cntr h1 {
+  letter-spacing: 3px;
+}
+

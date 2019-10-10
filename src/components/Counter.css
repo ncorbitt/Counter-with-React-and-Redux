@@ -1,0 +1,47 @@
+#container {
+    min-height: calc(100vh - 150px - 40px)
+}
+
+button {
+    width: 70px;
+}
+
+#counter {
+    margin: 0px 30px;
+    font-size: 12em;
+    text-shadow: 1px 1px 7px black;
+}
+
+#click-header {
+    text-shadow: 1px 1px 3px black;
+    text-align: center; 
+}
+
+#click-header + p {
+    font-size: 6em;
+    text-shadow: 1px 1px 7px gray;
+    text-align: center
+}
+
+#info {
+    padding: 5px;
+    background: linear-gradient(to right, #003366, #800080);
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+
+
+#info p {
+    border-radius: 3px;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    margin-bottom: 1px;
+}
+
+#verb {
+    background-color: indigo;
+    color: white;
+    padding: 7px;
+    border-radius: 3px;
+}
